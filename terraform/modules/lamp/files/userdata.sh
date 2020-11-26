@@ -5,7 +5,7 @@ yum install -y mc httpd
 systemctl start httpd.service
 systemctl enable httpd.service
 
-amazon-linux-extras install php7.4
+amazon-linux-extras install -y php7.4
 
 yum -y install amazon-efs-utils
 
