@@ -1,0 +1,22 @@
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+target/
+*,iml
+.idea
+
+TODO
+
+*.pyc
+
+# Vagrant
+.vagrant
+
+# Terraform
+
+.terraform/
+
+
