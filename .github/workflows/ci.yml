@@ -34,7 +34,5 @@ jobs:
         run: |
           echo Get all installed packages
           apt list --installed
-          echo Add other actions to build,
-          zcat /var/log/apt/history.log.*.gz | cat - /var/log/apt/history.log | grep -Po '^Commandline: apt-get install (?!.*--reinstall)\K.*'
-          echo test, and deploy your project.
+          echo The packages list output completed !!!
           
