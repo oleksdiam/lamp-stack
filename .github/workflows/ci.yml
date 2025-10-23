@@ -35,4 +35,10 @@ jobs:
           echo Get all installed packages
           apt list --installed
           echo The packages list output completed !!!
+          go version
+          echo -------------------------
+          mvn -v
+          echo -------------------------
+          node -v
+          echo ------------------------
           
